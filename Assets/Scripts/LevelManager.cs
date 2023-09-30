@@ -37,4 +37,10 @@ public class LevelManager : MonoBehaviour
         }
     }
 
+    private List<Tower> _spawnedTowers = new List<Tower> ();
+// Mendaftarkan Tower yang di-spawn agar bisa dikontrol oleh LevelManager
+public void RegisterSpawnedTower (Tower tower) {
+_spawnedTowers.Add (tower);
+}
+
 }
