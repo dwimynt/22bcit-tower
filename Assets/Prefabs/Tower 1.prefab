@@ -59,6 +59,10 @@ PrefabInstance:
       propertyPath: _shootPower
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 392987643868341234, guid: 970fc2606689bd74989cc2d8f079b57a, type: 3}
+      propertyPath: _bulletPrefab
+      value: 
+      objectReference: {fileID: 1417732139973963381, guid: 86f568f959f304b33ae57175f45160ef, type: 3}
     - target: {fileID: 392987643868341235, guid: 970fc2606689bd74989cc2d8f079b57a, type: 3}
       propertyPath: m_Name
       value: Tower 1
